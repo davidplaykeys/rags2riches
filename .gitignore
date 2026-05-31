@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# runtime data store (created on first run from seed.js)
+server/db.json
+
+# logs
+*.log
+npm-debug.log*
+
+# env / editor
+.env
+.DS_Store
+.vscode/
+.idea/

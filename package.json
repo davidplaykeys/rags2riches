@@ -1,0 +1,25 @@
+{
+  "name": "rags2riches",
+  "version": "1.0.0",
+  "description": "Rags²Riches — a fullstack thrift-store website (Express API + static SPA frontend).",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "reset-db": "node -e \"require('fs').rmSync('server/db.json',{force:true});console.log('db reset')\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "thrift",
+    "ecommerce",
+    "express",
+    "fullstack",
+    "spa"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
